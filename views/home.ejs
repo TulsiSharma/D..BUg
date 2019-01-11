@@ -1,0 +1,63 @@
+<% include partials/header %>
+<link rel="stylesheet" href="/Home.css">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="  #bs-example-navbar-collapse-1" aria-expanded="false">
+       				<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+       	 			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+				<a href="/" class="navbar-brand"><img src="\images\g11259.png"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="/dbug/about">ABOUT</a></li>
+					<li><a href="/projects">FEATURES</a></li>
+					<li><a href="/dbug/new">NEW <i class="fas fa-code"></i></a></li>
+
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				<% if(!currentuser){%>
+						<li><a href="/register"><i class="fas fa-user-plus"></i> Signup</a></li>
+						<li><a href="/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+					<% } else {%>
+						<li><a href="/account"><img src="<%=currentuser.Imageurl%>" class="img-circle" height="21" width="25"> SignIn as <%= currentuser.username %></a></li>
+						<li><a href="/logout"><i class="fas fa-sign-out-alt"></i> logout</a></li>	
+					<%}%>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+ 	<div class="container"
+
+ 		<%if(error && error.length>0){%>
+ 		<div class="alert alert-danger" role="alert"> <%= error %> </div>
+ 		<%}%>
+ 		<%if(success && success.length>0){%>
+ 		<div class="alert alert-success" role="alert"> <%= success %> </div>
+ 		<%}%>
+ 		<%if(login && login.length>0){%>
+ 		<div class="alert alert-success" role="alert"> <%= login %> </div>
+ 		<%}%>
+ 	</div>
+ 	<div id="landing-header">
+
+ 		<p>A Better way to</p>
+ 		<h1>Learn Technology</h1>
+ 		<p>How to built projects,write code and showcase here.</p>
+		<a href="/register" class="btn btn-lg btn-primary active">Get Started</a>
+    </div>
+    
+    <ul class="slideshow">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+ </body>
+ </html>

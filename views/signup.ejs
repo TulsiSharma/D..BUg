@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DBUg</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  	<link rel="stylesheet" href="/signup.css">
+</head>
+<body>
+
+	<div class="main-div-wrap">
+		<div class="container flash">
+			<% if(notsignin && notsignin.length > 0){ %>
+				<div class="alert alert-danger" role="alert"><%= notsignin %></div>
+			<% } %>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-3 col-xs-3"></div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<h1 class="logo"><a href="/" id="loogo">D..BUg <i class="fas fa-exclamation"></i></a></h1>
+					<div id="heading-below">
+						Get started with D..Bug !
+					</div>
+					<form action="/register" method="post">
+						<div class="form-group">
+							<input type="text" name="username" placeholder="username" class="form-control">
+						</div>
+						<div class="form-group">
+							<input type="email" name="email" placeholder="Email" class="form-control">
+						</div>
+						<div class="form-group">
+							<input type="password" name="password" placeholder="Password" class="form-control">
+						</div>
+						<button class="btn btn-primary btn-lg active">Get Started</button>
+						<p id="privacy-label">By signing up, you agree to our <a href="/termandpolicies">Term of Services</a></p>
+					</form>
+					<hr>
+					<p id="other-option">or sign up with other accounts</p>
+					<div id="other-account">
+						<p><a href="/auth/google" class="btn btn-lg btn-danger"><i class="fab fa-google-plus-g"></i> SignUp</a> <a href="/auth/facebook"><button class="btn btn-lg btn-primary"><i class="fab fa-facebook-f"></i> Sign Up</button></a></p>
+					</div>
+					<div>
+						<label>Already have an account? <a href="/login">Log in</a></label>
+					</div>
+	
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+<% include partials/footer %>

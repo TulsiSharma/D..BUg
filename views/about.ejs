@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>about</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  	<link rel="stylesheet" type="text/css" href="/about.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="  #bs-example-navbar-collapse-1" aria-expanded="false">
+       				<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+       	 			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+				<a href="/" class="navbar-brand"><img src="\images\g11259.png"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="/dbug/about">ABOUT</a></li>
+					<li><a href="/projects">FEATURES</a></li>
+					<li><a href="/dbug/new">NEW <i class="fas fa-code"></i></a></li>
+
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<% if(!currentuser){%> 
+						<li><a href="/register"><i class="fas fa-user-plus"></i> Signup</a></li>
+						<li><a href="/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+						 <% } else {%> 
+							 <li><a href="/account"><img src="<%=currentuser.Imageurl%>" class="img-circle" height="21" width="25"> SignIn as <%= currentuser.username %></a></li>
+							<li><a href="/logout"><i class="fas fa-sign-out-alt"></i> logout</a></li>	
+					 	<%}%> 
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 col-xs-12">
+				<header>
+					<div class="logo_container">
+						<a href="/"><img src="\images\dbuglogo.png" class="dbuglogo"></a>
+					</div> 
+				</header>
+			</div>
+			
+		</div>
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="textword img-fluid">
+						<p>D..bug is an project uploading site where you could showcase your skills, which will really helpful for the biggnners for getting an ideas about their projects which they wishes to built.</p>
+						<div id="tagline"><cite>Inspired by you, built by us.</cite></div>
+							
+						
+					</div>
+					<header><h2>Developer of D..Bug !</h2></header>
+					<div class="row id-card">
+						<div class="col-md-4 col-sm-4 col-xs-3"></div>
+						<div class="col-md-8 col-sm-8 col-xs-8">
+							<div class="card">
+								<div class="banner">
+									<h3>Tulsi Sharma</h3>
+									<h3>IT Student</h3>
+									<h3>YMCAUST</h3> 
+									<ul class="social-media">
+										<li class="social-media-btn"><a class="btns" href="https://github.com/TulsiSharma"><i class="fab fa-github"></i></a></li>
+										<li class="social-media-btn"><a  class="btns" href="https://www.linkedin.com/in/tulsi-sharma-948168154/"><i class="fab fa-linkedin-in"></i></a></li>
+
+									</ul>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="caption">
+						Information Technology student, programmer at heart and developer of D..BUg. Believes in combining engineering with knowledge and passion to bring next-generation tools to developers around the world.
+					</div>
+
+					<hr>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="row main-sec">
+		<div class="col-md-6 col-sm-6 col-xs-12 sec-1">
+			<div class="contant-holder">
+				<h3>Become an Contributer</h3>
+			</div>
+			<div class="contant-line">
+				upload what you love. D..BUG! gives you the tools to upload yours skills set.
+			</div>
+			<div class="upl-btn">
+				<a href="/new" type="button" class="btn btn-md btn-primary">Start uploading</a>
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-6 col-xs-12 sec-2">
+			<div class="contant-holder">
+				<h3>Clone Projects</h3>
+			</div>
+			<div class="contant-line">
+				Get unlimited projects clone of any languages or frameworks for you and your team.
+			</div>
+			<div class="upl-btn">
+				<a href="/projects" type="button" class="btn btn-md btn-primary">Get your project clone</a>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12 footer-sec-1">
+					<div class="footer-logo">
+						<a href="/"><img src="\images\dbuglogo.png" class="dbug-logo"></a>
+					</div>
+					<span> Copyright © 2018 D..BUG, Inc</span>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12 footer-sec-2">
+					<ul id="footer-contant">
+						<li class="footer-iteam"><a href="#">Term</a></li>
+						<li class="footer-iteam"><a href="#">Privacy Policy</a></li>
+					</ul>
+				</div>		
+			</div>
+
+		</div>
+		
+	</footer>
+</body>
+</html>

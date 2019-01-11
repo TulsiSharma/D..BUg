@@ -1,0 +1,80 @@
+body{
+	background-color: #ecf0f1;
+}
+.mainwrap{
+	text-align: center;
+}
+.flash{
+	height:auto;
+}
+#empty{
+	height: 45px;
+}
+#loogo{
+		margin-top:10px;
+		color: #2c3e50;
+		text-decoration-line: none;
+		font-weight: 800;
+		font-size: 40px;
+	}
+#check{
+		max-width: 30px;
+		min-width: 15px;
+		padding-right: auto;
+		padding-left: auto;
+}
+#linking{
+	padding-left: auto;
+	padding-right:15px;
+
+}
+.checkbox{
+	
+	width: 40%;
+	margin-left: 30%;
+
+}
+#main-div-wrap{
+	width: 100%;
+}
+.form-group{
+	width:85%;
+	margin-left: 7.5%;
+	margin-right: 7%;
+}
+.container{
+	text-align: center;
+}
+
+form{
+	align-content: center;
+	height: auto;
+	width: auto;
+	margin-top: 20px;
+}
+.Welcome{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: 40px;
+	color:grey;
+}
+.footer-access{
+	margin-top:15px; 
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.btn-lg{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 12px;
+	padding-left: 12px;
+	border-radius: 8px;
+}
+#Sign{
+	text-decoration-line: none;
+
+}
+#Reset{
+	text-decoration-line: none;
+}

@@ -1,0 +1,1659 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"pading",
+				"padding-top"
+			],
+			[
+				"Ja",
+				"javascript"
+			],
+			[
+				"h",
+				"h3\tTag"
+			],
+			[
+				"html",
+				"htmlcss"
+			],
+			[
+				"pro",
+				"projecttech"
+			],
+			[
+				"java",
+				"javascript"
+			],
+			[
+				"and",
+				"android"
+			],
+			[
+				"pr",
+				"projecttech"
+			],
+			[
+				"proj",
+				"projectfile"
+			],
+			[
+				"file",
+				"file"
+			],
+			[
+				"p",
+				"project"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"foun",
+				"founduser"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"up",
+				"updated"
+			],
+			[
+				"re",
+				"req"
+			],
+			[
+				"butt",
+				"button2"
+			],
+			[
+				"bu",
+				"button2"
+			],
+			[
+				"Up",
+				"upload"
+			],
+			[
+				"uplod",
+				"uploading"
+			],
+			[
+				"Add",
+				"Add"
+			],
+			[
+				"btn",
+				"btn-primary"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"project",
+				"Projectname"
+			],
+			[
+				"key",
+				"keys"
+			],
+			[
+				"uploa",
+				"uploading"
+			],
+			[
+				"get",
+				"getDownloadURL"
+			],
+			[
+				"download",
+				"getDownloadURL"
+			],
+			[
+				"upload",
+				"upload"
+			],
+			[
+				"url",
+				"url"
+			],
+			[
+				"storage",
+				"storageRef"
+			],
+			[
+				"form",
+				"form"
+			],
+			[
+				"upl",
+				"uploadForm"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"fle",
+				"inline-flex"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"cl",
+				"col-sm-6"
+			],
+			[
+				"dbug",
+				"dbuglogo"
+			],
+			[
+				"se",
+				"align-self"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"bl",
+				"inline-block"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"fons",
+				"font-size"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"la",
+				"letter-spacing"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"lo",
+				"login"
+			],
+			[
+				"col-",
+				"col-sm-12"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"fil",
+				"filter"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"sha",
+				"text-shadow"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"buc",
+				"bucket"
+			],
+			[
+				"bucket",
+				"bucketName"
+			],
+			[
+				"cree",
+				"created"
+			],
+			[
+				"Success",
+				"successRedirect"
+			],
+			[
+				"d",
+				"dbug"
+			],
+			[
+				"Uplo",
+				"uploads"
+			],
+			[
+				"new",
+				"newdata"
+			],
+			[
+				"ser",
+				"serverResponse"
+			],
+			[
+				"ca",
+				"canceled"
+			],
+			[
+				"stora",
+				"storageRef"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ove",
+				"overflow"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"is",
+				"isloggedin"
+			],
+			[
+				"auth",
+				"authRequired"
+			],
+			[
+				"g",
+				"google"
+			],
+			[
+				"fin",
+				"findByIdAndUpdate"
+			],
+			[
+				"SU",
+				"successfully"
+			],
+			[
+				"User",
+				"Username"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"mo",
+				"mongoose"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"te",
+				"text-rendering"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"body",
+				"body"
+			],
+			[
+				"comme",
+				"comment"
+			],
+			[
+				"bod",
+				"body"
+			],
+			[
+				"comment",
+				"Comment"
+			],
+			[
+				"update",
+				"updateuser"
+			],
+			[
+				"success",
+				"successfully"
+			],
+			[
+				"comm",
+				"comment"
+			],
+			[
+				"commen",
+				"comments"
+			],
+			[
+				"succ",
+				"successfully"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"use",
+				"User"
+			],
+			[
+				"pass",
+				"passwordlocalmongoose"
+			],
+			[
+				"connect",
+				"connection"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"product",
+				"productname"
+			],
+			[
+				"textal",
+				"text-align"
+			],
+			[
+				"com",
+				"col-md-12"
+			],
+			[
+				"textde",
+				"text-decoration"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"lea",
+				"leave-comments"
+			],
+			[
+				"leave",
+				"leave-comments-wrap"
+			],
+			[
+				"post",
+				"postcomment"
+			],
+			[
+				"commentbox",
+				"commentbox"
+			],
+			[
+				"time",
+				"timeformat"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 18533,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "models/passport.js",
+			"settings":
+			{
+				"buffer_size": 2053,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/signup.ejs",
+			"settings":
+			{
+				"buffer_size": 2260,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/fb.js",
+			"settings":
+			{
+				"buffer_size": 301,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/about.ejs",
+			"settings":
+			{
+				"buffer_size": 5085,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/about.css",
+			"settings":
+			{
+				"buffer_size": 5290,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/New.ejs",
+			"settings":
+			{
+				"buffer_size": 6052,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/list.ejs",
+			"settings":
+			{
+				"buffer_size": 3696,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/list.css",
+			"settings":
+			{
+				"buffer_size": 1679,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/New.css",
+			"settings":
+			{
+				"buffer_size": 1034,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/show.ejs",
+			"settings":
+			{
+				"buffer_size": 2616,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/partials/header.ejs",
+			"settings":
+			{
+				"buffer_size": 724,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/show.css",
+			"settings":
+			{
+				"buffer_size": 1470,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/home.ejs",
+			"settings":
+			{
+				"buffer_size": 2192,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/Home.css",
+			"settings":
+			{
+				"buffer_size": 2449,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/Account.ejs",
+			"settings":
+			{
+				"buffer_size": 5173,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/account.css",
+			"settings":
+			{
+				"buffer_size": 1003,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/project.ejs",
+			"settings":
+			{
+				"buffer_size": 20279,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/partials/footer.ejs",
+			"settings":
+			{
+				"buffer_size": 250,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/projects.css",
+			"settings":
+			{
+				"buffer_size": 4320,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "models/user.js",
+			"settings":
+			{
+				"buffer_size": 380,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "models/project.js",
+			"settings":
+			{
+				"buffer_size": 246,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "models/key.json",
+			"settings":
+			{
+				"buffer_size": 427,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/tulsisharma/AppData/Local/Temp/Rar$DIa0.690/Hello.txt",
+		"/C/Users/tulsisharma/Downloads/Dbug-112011e14bc1.json",
+		"/C/Users/tulsisharma/Downloads/client_secret_754810812848-pvvh8g4enfm9erofu9phoqe0vjcqrl3n.apps.googleusercontent.com.json",
+		"/C/Users/tulsisharma/Desktop/Logo/about.html",
+		"/C/Users/tulsisharma/Desktop/Logo/about.css",
+		"/E/Web/[FreeTutorials.us] the-web-developer-bootcamp/[FreeTutorials.us].txt",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/node",
+		"/C/Users/tulsisharma/Downloads/Dbugproject-f204ce2adce2.json",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/signup.ejs",
+		"/C/Users/tulsisharma/Desktop/about.html",
+		"/C/Users/tulsisharma/Desktop/about.css",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/New.ejs",
+		"/C/Users/tulsisharma/Documents/D..BUg/models/dbug-1533532548068-firebase-adminsdk-xrx2g-8717aedd4b.json",
+		"/C/Users/Public/Desktop/R@1n.txt",
+		"/C/Users/tulsisharma/Documents/apis/api.html",
+		"/C/Users/tulsisharma/Desktop/clientid.txt",
+		"/C/Users/tulsisharma/Documents/D..BUg/app.js",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/Account.ejs",
+		"/C/Users/tulsisharma/Desktop/project/New.html",
+		"/C/Users/tulsisharma/Desktop/project/New.css",
+		"/C/Users/tulsisharma/Documents/D..BUg/models/user.js",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/reset.ejs",
+		"/C/Users/tulsisharma/Desktop/project/login.html",
+		"/D/D..BUg/views/reset.html",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/project.ejs",
+		"/D/D..BUg/views/login.html",
+		"/C/Users/tulsisharma/Desktop/project/account.html",
+		"/C/Users/tulsisharma/Documents/D..BUg/public/account.css",
+		"/C/Users/tulsisharma/Desktop/project/account.css",
+		"/C/Users/tulsisharma/Desktop/account.html",
+		"/C/Users/tulsisharma/Desktop/mongoexample/account.html.txt",
+		"/C/Users/tulsisharma/Desktop/mongoexample/server.js",
+		"/C/Users/tulsisharma/Documents/D..BUg/database/app.js",
+		"/D/D..BUg/views/projects.html",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/partials/footer.ejs",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/signup.html",
+		"/C/Users/tulsisharma/Documents/D..BUg/public/reset.css",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/home.ejs",
+		"/C/Users/tulsisharma/Desktop/mongoexample/server",
+		"/C/Users/tulsisharma/Documents/D..BUg/database/models/user.js",
+		"/D/D..BUg/views/reset.css",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/reset.html",
+		"/C/Users/tulsisharma/Documents/D..BUg/public/projects.css",
+		"/D/D..BUg/views/projects.css",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/partials/header.ejs",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/login.ejs",
+		"/D/D..BUg/views/signup.html",
+		"/D/D..BUg/public/projects.css",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/projects.html",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/login.html",
+		"/C/Users/tulsisharma/Documents/D..BUg/signup.html",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/home.html",
+		"/C/Users/tulsisharma/Documents/D..BUg/public/scripts/main.js",
+		"/C/Users/tulsisharma/Documents/D..BUg/public/login.css",
+		"/C/Users/tulsisharma/Documents/D..BUg/public/scripts/Home.css",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/friend.ejs",
+		"/C/Users/tulsisharma/Documents/D..BUg/views/HOME.html",
+		"/C/Users/tulsisharma/Documents/D..BUg/home.html",
+		"/C/Users/tulsisharma/nodejsproject/Moreexpress/Ejsdemo/postrequestdemo/views/friend.ejs",
+		"/C/Users/tulsisharma/Documents/PROJECTSHOWCASING/login.html",
+		"/C/Users/tulsisharma/nodejsproject/Moreexpress/Ejsdemo/postrequestdemo/views/home.ejs",
+		"/C/Users/tulsisharma/nodejsproject/Moreexpress/Ejsdemo/postrequestdemo/app.js",
+		"/C/Users/tulsisharma/Documents/PROJECTSHOWCASING/projects.css",
+		"/C/Users/tulsisharma/Documents/PROJECTSHOWCASING/projects.html",
+		"/C/Users/tulsisharma/Documents/PROJECTSHOWCASING/reset.css",
+		"/C/Users/tulsisharma/Documents/PROJECTSHOWCASING/reset.html",
+		"/C/Users/tulsisharma/Documents/PROJECTSHOWCASING/login.css",
+		"/C/Users/tulsisharma/Documents/PROJECTSHOWCASING/Home.css",
+		"/C/Users/tulsisharma/Documents/PROJECTSHOWCASING/HOME.html",
+		"/C/Users/tulsisharma/Documents/PROJECTSHOWCASING/signup.css",
+		"/C/Users/tulsisharma/Documents/PROJECTSHOWCASING/signup.html",
+		"/C/Users/tulsisharma/nodejsproject/Moreexpress/Ejsdemo/views/posts.ejs",
+		"/C/Users/tulsisharma/nodejsproject/Moreexpress/Ejsdemo/app.js",
+		"/C/Users/tulsisharma/nodejsproject/Moreexpress/Ejsdemo/views/home.ejs",
+		"/C/Users/tulsisharma/nodejsproject/Moreexpress/Ejsdemo/view/home.ejs",
+		"/C/Users/tulsisharma/nodejsproject/myshop/faker.js",
+		"/C/Users/tulsisharma/nodejsproject/myshop/firstexpressapp/app.js",
+		"/C/Users/tulsisharma/nodejsproject/first.js",
+		"/C/Users/tulsisharma/nodejsproject/demoapp/app.js",
+		"/C/Users/tulsisharma/Documents/tab.html",
+		"/C/Users/tulsisharma/Documents/tabs.html",
+		"/C/Users/tulsisharma/Documents/form.html",
+		"/C/Users/tulsisharma/Documents/PROJECTSHOWCASING/form",
+		"/C/Users/tulsisharma/Documents/examples/form.css",
+		"/C/Users/tulsisharma/Documents/PROJECTSHOWCASING/bootstrap.css",
+		"/C/Users/tulsisharma/Documents/array.html",
+		"/C/Users/tulsisharma/Documents/list.js",
+		"/C/Users/tulsisharma/Documents/PROJECTSHOWCASING/bootstrap.min.css",
+		"/C/Users/tulsisharma/Documents/basics.html",
+		"/C/Users/tulsisharma/Desktop/nodejsproject/tulsi.html",
+		"/C/Users/tulsisharma/Documents/Sublim Doc/aboutme.html",
+		"/C/Users/tulsisharma/Documents/Sublim Doc/app.css",
+		"/C/Users/tulsisharma/Documents/Sublim Doc/mypage.html",
+		"/C/Users/tulsisharma/Documents/Sublim Doc/apple.css",
+		"/C/Users/tulsisharma/Desktop/nodejsproject/proj.html",
+		"/C/Users/tulsisharma/Desktop/nodejsproject/index.js",
+		"/C/Users/tulsisharma/Documents/Sublim Doc/page2.html",
+		"/C/Users/tulsisharma/Documents/Sublim Doc/tulsi.html",
+		"/C/Users/tulsisharma/Desktop/env2/website/website/settings.py",
+		"/C/Users/tulsisharma/Desktop/env2/website/blog/admin.py",
+		"/C/Users/tulsisharma/Desktop/env2/website/blog/views.py",
+		"/C/Users/tulsisharma/Desktop/env2/website/blog/urls.py",
+		"/C/Users/tulsisharma/Desktop/env2/website/website/urls.py",
+		"/C/Users/tulsisharma/Desktop/env2/website/db.sqlite3"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\t\t\t\t\t\t<",
+			"}\n",
+			");\n",
+			"col-lg-3\n",
+			">\n",
+			"></",
+			"70",
+			";\n",
+			"?\");\n",
+			"50px"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"col-lg-4"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7758,
+								7758
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5171.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "models/passport.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1653,
+								1653
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 507.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/signup.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2260,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2082,
+								2082
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 118.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/fb.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								299,
+								299
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/about.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5085,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2610,
+								2610
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 132.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "public/about.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5288,
+								5288
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6425.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/New.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								576,
+								576
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1148.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "views/list.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2632,
+								2632
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1034.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/list.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								366
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 242.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "public/New.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								608,
+								608
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "views/show.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1628,
+								1628
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 712.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "views/partials/header.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 724,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "public/show.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5,
+								5
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "views/home.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								745,
+								745
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "public/Home.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "views/Account.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5173,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1916,
+								1916
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1056.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "public/account.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								798,
+								798
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 734.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "views/project.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20279,
+								20279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 11404.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "views/partials/footer.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								159
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "public/projects.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2253,
+								2253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2964.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "models/user.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								203,
+								203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "models/project.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								175,
+								164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "models/key.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								427,
+								427
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 3212.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "app.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\tulsisharma\\Documents\\PROJECTSHOWCASING\\login.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 120.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

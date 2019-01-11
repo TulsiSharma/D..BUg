@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Account</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  	<link rel="stylesheet" type="text/css" href="/account.css">
+  	
+</head>
+<body>
+	<div class="wrap">
+		<div class="container">
+			<% if(Error && Error.length > 0){ %>
+				<div class="alert alert-danger" role="alert"><%= Error %></div>
+			<% } %>
+			<% if(accountupdate && accountupdate.length > 0){ %>
+				<div class="alert alert-success" role="alert"><%= accountupdate %></div>
+			<% } %>
+
+			<div class="row first">
+					<div id="extra_space" class="col-md-4 col-sm-4 col-xs-1"></div>
+					<div id="second_div" class="col-md-4 col-sm-4 col-xs-12">
+						<div id="second_space"></div>
+						<form action="/account" method="post">
+							<div>
+							<div id="image-div">
+								<img src="<%=currentuser.Imageurl %>" class=" img-circle" height="160" width="160">
+							</div>
+							<input type="file" id="img-add-btn" class="btn btn-default btn-md" name="imagefile">
+						</div>
+						<div id="second_space"></div>
+							<div class="form-group">
+								<input type="text" name="username" value="<%=currentuser.username%>" class="form-control" required="yes">
+							</div>
+							<div class="form-group">
+								<input type="email" name="email" value="<%=currentuser.email%>" class="form-control" required="yes">
+							</div>
+							<div class="form-group">
+								<input type="password" name="password" value="<%=currentuser.password %>" class="form-control">
+							</div>
+							<button type="submit" class="btn btn-primary btn-lg" id="save">Save</button>
+							<span id = "status"></span>
+						 	<input type="url" name="url" id="dwlurl" value="" hidden="">
+						</form>
+						
+						
+					</div>
+				</div>
+				<div id="uploads">
+					<a href="/dbug/new" type="submit" class="btn btn-success btn-lg">Upload <i class="fas fa-upload"></i></a>
+				</div>
+				
+				
+			</div>
+			<div class="container">
+				<div class="row">
+				<% currentuser.projects.forEach(function(project){ %>
+				<a href="/account/project/<%=project._id %>" >
+					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+						<h3><strong><%= project.Projectname %></strong></h3>
+						<div class="description">
+							<p style="font-size: 17px; padding-right: 20px;"><%= project.description.substring(0,48) %></p>
+						</div>
+						
+						<p style="font-size: 17px">
+							<span class="repo-language-color pinned-repo-meta" style="background-color:#701516;"></span>
+						<i style="padding-right: 20px;"><%= project.projecttech %></i>
+						<svg aria-label="stars" class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+					<i style="padding-right: 10px;"><%= project.projecttype %></i></p>
+					</div>
+				</a>
+				<% }) %>
+				
+				
+			</div>
+
+			</div>
+			
+	</div>
+	
+	<script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC_TWBFqrYjRIIRY9XipqMXAgF9t-CKasw",
+    authDomain: "dbug-1533532548068.firebaseapp.com",
+    databaseURL: "https://dbug-1533532548068.firebaseio.com",
+    projectId: "dbug-1533532548068",
+    storageBucket: "dbug-1533532548068.appspot.com",
+    messagingSenderId: "754810812848"
+  };
+  firebase.initializeApp(config);
+  			var url;
+  			var downloadurl;
+  			var filebutton=document.getElementById("img-add-btn");
+  			var button2=document.getElementById("save");	
+  			var demo=document.getElementById("status");
+  			var dwlurl=document.getElementById("dwlurl");  
+  			filebutton.addEventListener('change',function(e){
+  				var file = e.target.files[0];
+  			if(file){
+  			var storageRef=firebase.storage().ref('uploads/images/'+file.name);
+  			button2.innerHTML="Uploading...";
+  			button2.disabled=true;
+  			button2.style.cursor="wait";
+  			var upload =storageRef.put(file);
+  			upload.on('state_changed',function progress(snapshot){ 
+
+  				var percentage = (snapshot.bytesTransferred/snapshot.totalBytes)*100;
+  				demo.innerHTML = percentage+"%";
+  				if(percentage==100){
+  					button2.innerHTML="Save"; 
+  					button2.disabled=false;
+  					button2.style.cursor="pointer"; 
+  					demo.innerHTML="profile is uploaded successfully";	
+  				}
+  				
+  			},
+  			function error(err){
+
+  			},
+  			function complete(){
+  			}
+  			)
+  			var Url="https://firebasestorage.googleapis.com/v0/b/dbug-1533532548068.appspot.com/o/uploads%2Fimages%2F"+file.name+"?alt=media&token=0f84e985-44bf-42a5-96bf-b163e2f83857";
+  			dwlurl.value=Url;
+  			}
+  			else{
+  				alert("select the file first");			 
+  				}
+
+  			});
+  			
+ 
+</script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+body{
+	background-color: #ecf0f1;
+	color: #2c3e50;
+	overflow: scroll;
+}
+.navbar-inverse{
+	background:#2c3e50; 
+}
+.navbar-inverse .navbar-nav>li>a {
+    color:white;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-brand img {
+	margin-top: 0px;
+    width: 85px;
+	height: 33px;
+}
+.container{
+	text-align: center;
+}
+#note{
+	margin-bottom: 10px;
+	color: #2c3e50;
+}
+hr{
+	border: 0.7px solid white;
+	width: 59%;
+	box-shadow: 1px 1px 1px grey;
+}
+h2{
+	color: #2c3e50;
+}
+.form-group{
+	margin-bottom: 24px;
+	text-align: center;
+}
+#filebutton{
+	margin-left: 30%;
+	font-size: 16px;
+	
+}
+select{
+	width: 17em;
+	height: 25px;
+}
+
+#description{
+ 	height: 100px;
+ 	padding-top: 3px;
+ }
+.empty{
+	height: 15px;
+}
+#user-button{
+	margin-bottom: 23px;
+	background-color: lightgrey;
+	color: #2c3e50;
+}
+input{
+	border-radius: 10px;
+}
+label{
+	font-size: 15px;
+	
+	float: left
+}
+#radiobutton{
+	margin-left: 20px;
+}
+.btn-lg{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 12px;
+	padding-left: 12px;
+	border-radius: 8px;
+	margin-top: 13px;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  	<link rel="stylesheet" type="text/css" href="/New.css">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="  #bs-example-navbar-collapse-1" aria-expanded="false">
+       				<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+       	 			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+				<a href="/" class="navbar-brand"><img src="\images\g11259.png"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="/dbug/about">ABOUT</a></li>
+					<li><a href="/projects">FEATURES</a></li>
+					<li><a href="/dbug/new">NEW <i class="fas fa-code"></i></a></li>
+
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				<% if(!currentuser){%>
+						<li><a href="/register"><i class="fas fa-user-plus"></i> Signup</a></li>
+						<li><a href="/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+					<% } else {%>
+						<li><a href="/account"><img src="<%=currentuser.Imageurl%>" class="img-circle" height="21" width="25"> SignIn as <%= currentuser.username %></a></li>
+						<li><a href="/logout"><i class="fas fa-sign-out-alt"></i> logout</a></li>	
+					<%}%>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<br>
+	<br>
+	<div id="main-wrap">
+		<div class="container">
+			<div class="row">
+				<br>
+				<div class="col-md-12" id="note">
+					<h2>ShowCase Your Project Here</h2>
+				</div>
+				<div class="col-md-12 col-xs-12" id="note">
+				 	<p>We are glade that you are come here..again </p>
+				</div>
+				<hr>
+				<div class="empty"></div>
+				<div class="col-md-3 col-sm-3 col-xs-1"></div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<form action="/dbug/<%=currentuser._id%>/new/" method="post" id="uploadForm">
+						<input type="button" class="btn btn-default btn-lg" value="Added by <%= currentuser.username %>" id="user-button">
+						<div class="form-group">
+							<input type="text" name="Name" class="form-control" placeholder="Project Name">
+						</div>
+						<div class="form-group">
+							<textarea  name="description" class="form-control" placeholder="Description" id="description"></textarea>
+						</div>
+						<div class="form-group">
+							<input type="file" name="projectfile" id="filebutton">
+						</div>
+						<div class="form-group">
+						<label>Project Type :-</label><input type="radio" name="Type" value="major" id="radiobutton ">Major<input type="radio" name="Type" value="minor"  id="radiobutton">Minor
+						</div>
+						<div class="form-group">
+							<p><label name="projecttech">Technology/Language :-</label> 
+							<select name="projecttech">
+								<option value="ccpp">C/Cpp</option>
+								<option value="htmlcss">HTML/CSS</option>
+								<option value="python">Python</option>
+								<option value="java">Java</option>
+								<option value="javascript">JavaScript</option>
+								<option value="net">.Net</option>
+								<option value="android">Android</option>
+								<option value="ios">IOS</option>
+								<option value="ruby">Ruby</option>
+								<option value="sql">SQL</option>
+								<option value="fullstack">Full Stack Web</option>
+								<option value="php">PHP</option>
+							</select> </p>
+						</div>
+						<button type="submit" class="btn btn-primary btn-lg" name="submit" id="submitbtn" value="Add Project">Add Project</button>
+
+						 <span id = "status"></span>
+						 <input type="url" name="url" id="dwlurl" value="" hidden="">
+					</form>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyC_TWBFqrYjRIIRY9XipqMXAgF9t-CKasw",
+    authDomain: "dbug-1533532548068.firebaseapp.com",
+    databaseURL: "https://dbug-1533532548068.firebaseio.com",
+    projectId: "dbug-1533532548068",
+    storageBucket: "dbug-1533532548068.appspot.com",
+    messagingSenderId: "754810812848"
+  };
+  firebase.initializeApp(config);
+  			var url;
+  			var downloadurl;
+  			var filebutton=document.getElementById("filebutton");
+  			var button2=document.getElementById("submitbtn");	
+  			var demo=document.getElementById("status");
+  			var dwlurl=document.getElementById("dwlurl");  
+  			filebutton.addEventListener('change',function(e){
+  				var file = e.target.files[0];
+  			if(file){
+  			var storageRef=firebase.storage().ref('uploads/projects/'+file.name);
+  			button2.innerHTML="Uploading...";
+  			button2.disabled=true;
+  			button2.style.cursor="wait";
+  			var upload =storageRef.put(file);
+  			upload.on('state_changed',function progress(snapshot){ 
+
+  				var percentage = (snapshot.bytesTransferred/snapshot.totalBytes)*100;
+  				demo.innerHTML = percentage+"%";
+  				if(percentage==100){
+  					demo.innerHTML = "File Uploaded Successfully!!";
+  					button2.innerHTML="Add Project"; 
+  					button2.disabled=false;
+  					button2.style.cursor="pointer"; 	
+  				}
+  				
+  			},
+  			function error(err){
+
+  			},
+  			function complete(){
+  			}
+  			)
+  			var Url="https://firebasestorage.googleapis.com/v0/b/dbug-1533532548068.appspot.com/o/uploads%2Fprojects%2F"+file.name+"?alt=media&token=c647337c-3013-4b59-8146-bf73a9ef9b33";
+  			dwlurl.value=Url;
+  			}
+  			else{
+  				alert("select the file first");			 
+  				}
+
+  			});
+  			
+ 
+</script>
+	
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+body{
+	background-color: #ecf0f1;
+}
+
+.mainwrap{
+	text-align: center;
+}
+.container{
+
+	text-align: center;
+	
+}
+form{
+	margin-top: 15px;
+
+}
+.form-group{
+}
+.form-control{
+		padding: 6px 10px;
+}
+footer{
+	
+	margin-top: 10px;
+}
+#footer-access{
+
+	margin-top: 10px;
+	padding-top: 10px;
+}
+#policy{
+	text-decoration-line: none;
+	padding-top: 10px;
+}
+#logo{
+
+	margin-bottom: 70px;
+
+}
+#loogo{
+	text-decoration-line: none;
+	color: #2c3e50;
+	font-size: 40px;
+	font-weight: 800;
+	width: auto;
+	height: auto;
+
+}
+
+#heading{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-weight: 700;
+	min-width:20px;
+	height: auto;
+}
+.btn{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-radius: 8px;
+	margin-top: 4px;
+}
